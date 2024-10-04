@@ -8,8 +8,8 @@ export default {
     extend: {
       colors: {
         devzery: "#f257a0",
-        altBg: "#222222",
-        bg: "#111111",
+        altBg: "#3f3f46",
+        bg: "#18181b",
       },
     },
   },

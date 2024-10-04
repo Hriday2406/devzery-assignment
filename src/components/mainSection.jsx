@@ -1,7 +1,7 @@
-export default function MainSection() {
+export default function MainSection({ headers, setHeaders }) {
   return (
-    <div className="bg-zinc-800 grow rounded-2xl p-10 border-l-[1px]">
-      <h1 className="text-devzery text-xl font-medium">New Test Case</h1>
+    <div className="bg-altBg grow rounded-l-2xl p-10 border-l-[1px] border-zinc-500">
+      <h1 className="text-xl font-medium text-devzery">New Test Case</h1>
     </div>
   );
 }
