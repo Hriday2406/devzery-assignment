@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="flex h-screen text-white bg-bg font-body">
       <Menu />
-      <MainSection headers={headers} setHeaders={setHeaders} />
+      <MainSection headers={headers} />
       <Aside headers={headers} setHeaders={setHeaders} />
     </div>
   );

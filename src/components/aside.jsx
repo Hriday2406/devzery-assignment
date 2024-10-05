@@ -24,7 +24,7 @@ function HeaderItems({ item, setHeaders, index }) {
   }
 
   return (
-    <div className="border-[1px] border-zinc-500 rounded-lg overflow-hidden">
+    <div className="overflow-hidden rounded-lg ">
       <div className="p-3 border-b-[1px] border-zinc-500 bg-altBg flex justify-between items-center">
         {isKeyEditing ? (
           <input
